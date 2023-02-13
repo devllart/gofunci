@@ -1,4 +1,4 @@
-package funcs
+package gofunci
 
 func If[T any](condition bool, ret, ret2 T) T {
 	if condition {

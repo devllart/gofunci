@@ -1,4 +1,4 @@
-package funcs
+package gofunci
 
 func Contains[T string | float32 | float64 | int](s []T, el T) bool {
 	for _, v := range s {

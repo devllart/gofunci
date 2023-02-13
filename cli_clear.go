@@ -1,4 +1,4 @@
-package funcs
+package gofunci
 
 import (
 	"os"
@@ -6,7 +6,7 @@ import (
 	"runtime"
 )
 
-var clear map[string]func() //create a map for storing clear funcs
+var clear map[string]func() //create a map for storing clear gofunci
 
 func init() {
 	clear = make(map[string]func()) //Initialize it
